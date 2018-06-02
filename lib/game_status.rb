@@ -36,3 +36,11 @@ def won?(board)
   end
   return false
 end
+
+def draw?(board)
+  if won? 
+    false
+  else 
+    true
+  end
+end
