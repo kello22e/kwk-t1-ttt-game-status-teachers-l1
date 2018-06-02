@@ -9,6 +9,7 @@ def full?(board)
     if board[index] == " " then
       return false
     end
+    index += 1
   end
   return true
 end
