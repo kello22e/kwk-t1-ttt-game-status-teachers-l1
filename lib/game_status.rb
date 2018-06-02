@@ -38,7 +38,7 @@ def won?(board)
 end
 
 def draw?(board)
-  if won? 
+  if won?(board) 
     false
   else 
     true
